@@ -1,0 +1,167 @@
+.landing {
+background-color: #fffaf6;
+color: #4b2e05;
+padding: 4rem 2rem;
+text-align: center;
+font-family: "Georgia", serif;
+}
+
+.landing-hero h1 {
+font-size: 2.5rem;
+margin-bottom: 0.5rem;
+color: #4b2e05;;
+}
+
+.landing-hero p {
+font-size: 1.1rem;
+color: #4b2e05;;
+margin-bottom: 1.5rem;
+}
+
+.view-books-btn {
+background-color: #4b2e05;;
+color: #fff;
+border: none;
+border-radius: 8px;
+padding: 0.8rem 1.6rem;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.25s ease;
+}
+
+.view-books-btn:hover {
+background-color: #4b2e05;;
+}
+
+/* Stats Grid */
+.stats-section {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+gap: 1.5rem;
+margin: 3rem 0;
+}
+
+.stat-card {
+background-color: #f6efe5;
+border: 1px solid #d1bfa3;
+border-radius: 16px;
+padding: 20px 25px;
+box-shadow: 0 3px 6px rgba(75, 46, 5, 0.08);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+transform: translateY(-3px);
+box-shadow: 0 6px 12px rgba(75, 46, 5, 0.15);
+}
+
+.stat-card h3 {
+font-weight: 600;
+margin-bottom: 0.5rem;
+}
+
+.stat-value {
+font-size: 2rem;
+font-weight: bold;
+color: #4b2e05;;
+}
+
+/* Lower section */
+.lower-section {
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+justify-content: center;
+margin-top: 3rem;
+}
+
+.reading-stats,
+.reading-goal {
+flex: 1;
+min-width: 300px;
+background-color: #f6efe5;
+border: 1px solid #d1bfa3;
+border-radius: 16px;
+padding: 20px 25px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+text-align: left;
+}
+
+.reading-stats h2,
+.reading-goal h2 {
+color: #4b2e05;;
+margin-bottom: 1rem;
+}
+
+.stat-item {
+margin-bottom: 1.2rem;
+}
+
+.stat-item-header {
+display: flex;
+justify-content: space-between; /* keeps text on opposite ends */
+align-items: center;
+width: 100%;
+margin-bottom: 0.4rem;
+}
+
+
+.stat-count {
+font-size: 0.9rem;
+color: #4b2e05;;
+font-weight: 600;
+}
+
+.stat-item span {
+font-size: 0.95rem;
+color: #4b2e05;;
+}
+
+.progress-bar {
+background-color: #e9e3ee;
+border-radius: 10px;
+overflow: hidden;
+height: 10px;
+}
+
+.progress {
+height: 100%;
+background-color: #4b2e05;;
+border-radius: 10px;
+transition: width 0.4s ease;
+}
+
+.stat-item-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin-bottom: 0.4rem;
+}
+
+
+/* Reading Goal */
+.reading-goal p {
+margin-top: 0.5rem;
+color: #4b2e05;;
+}
+
+.goal-bar {
+height: 14px;
+margin: 0.8rem 0;
+}
+
+.goal-percent {
+font-weight: 600;
+color: #4b2e05;;
+}
+
+@media (max-width: 768px) {
+.landing-hero h1 {
+font-size: 2rem;
+}
+.lower-section {
+flex-direction: column;
+align-items: center;
+}
+}

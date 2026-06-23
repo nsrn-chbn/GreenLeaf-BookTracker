@@ -1,0 +1,138 @@
+/* Page Background and Font */
+body {
+margin: 0;
+background-color: #fffaf6;
+font-family: "Georgia", serif;
+color: #4b2e05;
+}
+
+/* Page Container */
+.my-books-page {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px 20px 80px;
+}
+
+/* Header */
+.books-header {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.books-header h1 {
+font-size: 2.2rem;
+font-weight: bold;
+color: #4b2e05;
+}
+
+/* Book List Container */
+.books-list {
+width: 100%;
+max-width: 800px;
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+/* Individual Book Card */
+.book-card {
+background-color: #f6efe5;
+border: 1px solid #d1bfa3;
+border-radius: 16px;
+padding: 20px 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 3px 6px rgba(75, 46, 5, 0.08);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-card:hover {
+transform: translateY(-3px);
+box-shadow: 0 6px 12px rgba(75, 46, 5, 0.15);
+}
+
+/* Book Info */
+.book-info h2 {
+margin: 0;
+font-size: 1.3rem;
+font-weight: bold;
+}
+
+.book-info p {
+margin: 4px 0 0 0;
+color: #6c3f07;
+font-style: italic;
+}
+
+/* Buttons */
+.book-actions {
+display: flex;
+gap: 10px;
+}
+
+.secondary-btn {
+background-color: #e8dbc6;
+color: #4b2e05;
+border: none;
+padding: 8px 14px;
+border-radius: 20px;
+font-size: 0.95rem;
+font-weight: 600;
+cursor: pointer;
+transition: background-color 0.25s;
+}
+
+.secondary-btn:hover {
+background-color: #d1bfa3;
+}
+
+.delete-btn {
+background-color: #f3d8d0;
+}
+
+.delete-btn:hover {
+background-color: #e9bcb0;
+}
+
+/* Add Book Button */
+.add-book-container {
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+.primary-btn {
+background-color: #4b2e05;
+color: white;
+border: none;
+padding: 12px 24px;
+border-radius: 30px;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+background-color: #6c3f07;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+.book-card {
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+}
+
+.book-actions {
+align-self: flex-end;
+}
+
+.primary-btn {
+width: 100%;
+max-width: 200px;
+}
+}

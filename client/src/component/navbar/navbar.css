@@ -1,0 +1,28 @@
+body {
+margin: 0;
+font-family: "Georgia", serif;
+background-color: #fffaf6;
+color: #4b2e05;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 50px;
+border-bottom: 1px solid #d1bfa3;
+}
+
+.logo {
+font-size: 1.8rem;
+font-weight: bold;
+}
+
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+    color: #4b2e05;
+    font-weight: bold;
+    font-size: 20px;
+}

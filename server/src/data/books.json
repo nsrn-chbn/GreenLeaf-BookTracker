@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "1782162931761",
+    "title": "Book 1",
+    "author": "Author 1",
+    "genre": "",
+    "status": "to-read",
+    "description": "",
+    "createdAt": "2026-06-22T21:15:31.761Z"
+  },
+  {
+    "_id": "1782162941239",
+    "title": "Book 2",
+    "author": "Author 2",
+    "genre": "",
+    "status": "reading",
+    "description": "",
+    "createdAt": "2026-06-22T21:15:41.239Z"
+  },
+  {
+    "_id": "1782162956332",
+    "title": "Book 3",
+    "author": "Author 3",
+    "genre": "",
+    "status": "finished",
+    "description": "",
+    "createdAt": "2026-06-22T21:15:56.332Z"
+  }
+]

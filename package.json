@@ -1,0 +1,26 @@
+{
+  "name": "green-leaf-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "client": "cd client && npm run dev",
+  "server": "cd server && npx nodemon index.js",
+  "dev": "concurrently \"npm run client\" \"npm run server\""
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsrn-chbn/Green-Leaf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nsrn-chbn/Green-Leaf/issues"
+  },
+  "homepage": "https://github.com/nsrn-chbn/Green-Leaf#readme",
+  "dependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
